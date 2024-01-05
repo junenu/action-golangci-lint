@@ -15,6 +15,8 @@ func Main() {
 	os.Open("main1.go")
 
 	os.ReadFile("main1.go")
+
+	fmt.Println("done")
 }
 
 func unused1(unusedParam int) error {
